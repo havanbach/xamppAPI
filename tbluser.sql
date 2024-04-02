@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th4 01, 2024 lúc 07:34 AM
+-- Thời gian đã tạo: Th4 02, 2024 lúc 02:13 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.0.30
 
@@ -40,7 +40,9 @@ CREATE TABLE `tbluser` (
 
 INSERT INTO `tbluser` (`id`, `name`, `phone`, `gender`) VALUES
 (1, 'Bach', 397336324, 'Nam'),
-(2, 'Phuong', 397336325, 'Nam');
+(2, 'Phuong', 397336325, 'Nam'),
+(4, 'Huy', 1231233, 'Nam'),
+(6, 'Duong', 321341412, 'Nam');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -60,7 +62,7 @@ ALTER TABLE `tbluser`
 -- AUTO_INCREMENT cho bảng `tbluser`
 --
 ALTER TABLE `tbluser`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
